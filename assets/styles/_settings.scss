@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "alluraS";
+    src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+$font1 : alluraS, sans-serif;
+$font2 : medium, sans-serif;
+$font3 : light, serif;
+
+$white1 : white;
+$white2 : rgba(255, 255, 255, 0.778);
+$orange : rgba(255, 128, 0, 0.807);
+$black1 : black;
+$black2 : rgba(0, 0, 0, 0.347);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+li {
+    list-style-type: none;
+}
+
+a,a:visited{
+    color : $black1;
+    text-decoration: none;
+}
